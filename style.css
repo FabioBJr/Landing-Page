@@ -1,0 +1,54 @@
+@import url('http://fonts.cdnfonts.com/css/neue-haas-grotesk-text-pro');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #F2EDF2;
+    font-family: 'neue-haas-grotesk-text-pro', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.menu-header {
+    display: flex;
+    gap: 40px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.buttom {
+    width: 7rem;
+    height: 2.5em;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 3px;
+    border: 1px solid;
+}
+#contact {
+    background-color: #F2EDF2;
+}
+.logo-header {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.people-imgs {
+    width: 4rem;
+    height: 3rem;
+    border-radius: 50%;
+    border-color: black;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+}
